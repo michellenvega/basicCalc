@@ -8,9 +8,10 @@ def twoSum(nums: list[int], target: int) -> list[int]:
          
 #   We want a target of 7
 #   So the resulting list should be => [0,3]
-# sample = [2,9,3,5]
-# answer = twoSum(sample, 7)
-# print(answer)
+
+sample = [2,9,3,5]
+answer = twoSum(sample, 7)
+print(answer)
 
 test2 = [3,2,4]
 nextans = twoSum(test2, 6)
